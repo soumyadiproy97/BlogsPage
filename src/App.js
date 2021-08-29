@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Components/Create";
 import BlogDetails from "./Components/BlogDetails";
 //practice
-//bjhbajhsbkd
+
 function App() {
   return (
     <Router>
