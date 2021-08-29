@@ -1,0 +1,18 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  const title='welcome to the course';
+  const link="http://www.google.com"
+// const person={name:'dip',age:24}; //can't do this
+  return (
+    <div className="content">
+      <h1>{title}</h1>
+      <p>{[1,2,3,4,5,6]}</p>
+      <p>{Math.random()}</p>
+      <a href ={link}>Google</a>
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,36 @@
+//functional useState
+import { useState } from "react";
+
+const Home = () => {
+  const [name, setName] = useState(() => {
+    return "marion";
+  });
+  const [age, setAge] = useState(() => {
+    var ch = "A";
+    switch (ch) {
+      case "A": {
+        return 30;
+      }
+      default:
+        return 40;
+    }
+  });
+
+  const handleClick = () => {
+    console.log("Hello ");
+    setName("dip");
+    setAge("25");
+  };
+
+  return (
+    <div className="home">
+      <h2>Homepage</h2>
+      <p>
+        {name} is {age} years old
+      </p>
+      <button onClick={handleClick}>Click me</button>
+    </div>
+  );
+};
+
+export default Home;
