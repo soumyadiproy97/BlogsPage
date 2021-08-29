@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Components/Create";
 import BlogDetails from "./Components/BlogDetails";
+//practice
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        
       </div>
     </Router>
   );
